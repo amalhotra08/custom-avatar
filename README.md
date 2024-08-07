@@ -19,19 +19,36 @@ This project generates a talking head animation from text input. It converts tex
 - `asyncio`
 - `opencv-python`
 
-## Setup
+## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/talking-head-animation.git
+    cd talking-head-animation
+    ```
 
-```bash
-git clone https://github.com/amalhotra08/custom-avatar.git
-```
-2. Install requirements:
-```bash
-cd custom-avatar
-pip install -r requirements.txt
-```
-3. Increase open file limit:
+2. **Install Python dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. **Install `ffmpeg`:**
+
+    - **Windows:**
+        Download the `ffmpeg` executable from [ffmpeg.org](https://ffmpeg.org/download.html), extract it, and add the `bin` folder to your system's PATH.
+
+    - **macOS:**
+        ```sh
+        brew install ffmpeg
+        ```
+
+    - **Linux:**
+        ```sh
+        sudo apt update
+        sudo apt install ffmpeg
+        ```
+    
+4. Increase open file limit:
 ```bash
 ulimit -n 4096
 ```
