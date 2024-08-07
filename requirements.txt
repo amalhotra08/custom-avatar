@@ -1,0 +1,4 @@
+eng_to_ipa
+moviepy
+pydub
+edge-tts
