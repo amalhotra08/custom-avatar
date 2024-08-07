@@ -31,6 +31,10 @@ git clone https://github.com/amalhotra08/custom-avatar.git
 cd custom-avatar
 pip install -r requirements.txt
 ```
+3. Increase open file limit:
+```bash
+ulimit -n 4096
+```
 
 ## Usage
 Update the phrase variable in the example usage section of the `main.py` with the text you want to convert to a talking head video. Run the script:
