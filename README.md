@@ -19,7 +19,7 @@ This project generates a talking head animation from text input. It converts tex
 - `asyncio`
 - `opencv-python`
 
-## Installation
+## Setup
 
 1. Clone the repository:
 
@@ -32,7 +32,8 @@ cd custom-avatar
 pip install -r requirements.txt
 ```
 
-3. Run example script:
+## Usage
+Update the phrase variable in the example usage section of the `main.py` with the text you want to convert to a talking head video. Run the script:
 ```bash
 python main.py
 ```
