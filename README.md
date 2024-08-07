@@ -24,7 +24,7 @@ This project generates a talking head animation from text input. It converts tex
 1. Clone the repository:
 
 ```bash
-https://github.com/amalhotra08/custom-avatar.git
+git clone https://github.com/amalhotra08/custom-avatar.git
 ```
 2. Install requirements:
 ```bash
